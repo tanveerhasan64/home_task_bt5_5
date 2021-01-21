@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Required meta tags -->
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--CSS links -->
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Home Bootstrap 5.0</title>
+
+  </head>
+  <body>
+    
+<h5>Navbar</h5>
+
+<div class="container">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">T-Shirt Fair</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="collection.html">Collection</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Menu
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="about us.html">About Us</a></li>
+            <li><a class="dropdown-item" href="contact us.html">Contact Us</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="index.html">Home</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+</div>
+
+<h5>Accordion Flush</h5>
+
+<div class="container">
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Artistic
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">The popular notification icon's tee for dribbblers.
+      Material:Eco friendly printing color.
+      Premium:175 GSM. Compact combed cotton.26 Thread Count. Wash resistant fabric color.
+      Standard:~160 GSM. Super Carded cotton. 26 Thread Count. Durable fabric color.
+      Budget:~150-160 GSM. Super Carded cotton. 26-28 Thread Count. Durable fabric color.
+      Type: Men
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Movie
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">The popular notification icon's tee for dribbblers.
+      Material:Eco friendly printing color.
+      Premium:175 GSM. Compact combed cotton.26 Thread Count. Wash resistant fabric color.
+      Standard:~160 GSM. Super Carded cotton. 26 Thread Count. Durable fabric color.
+      Budget:~150-160 GSM. Super Carded cotton. 26-28 Thread Count. Durable fabric color.
+      Type: Men</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+      TV Series
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">The popular notification icon's tee for dribbblers.
+      Material:Eco friendly printing color.
+      Premium:175 GSM. Compact combed cotton.26 Thread Count. Wash resistant fabric color.
+      Standard:~160 GSM. Super Carded cotton. 26 Thread Count. Durable fabric color.
+      Budget:~150-160 GSM. Super Carded cotton. 26-28 Thread Count. Durable fabric color.
+      Type: Men</div>
+    </div>
+  </div>
+</div>
+
+<h5>Alerts</h5>
+<div class="container">
+<div class="alert alert-primary" role="alert">
+  A simple primary alert
+</div>
+<div class="alert alert-secondary" role="alert">
+  A simple secondary alert
+</div>
+
+<h5>Dismissing</h5>
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Attention!</strong> You should check in on some of those fields below.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+</div>
+<h5>Badge</h5>
+
+<div class="container">
+<h1>Festive Offer<span class="badge bg-secondary">50% Off</span></h1>
+
+<button type="button" class="btn btn-primary">
+  Messages <span class="badge bg-secondary">11</span>
+</button>
+</div>
+<h5>Breadcrumb</h5>
+
+<!--1st-->
+<div class="container">
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Home</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">contact us</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="contact us.html">contact us</a></li>
+    <li class="breadcrumb-item active" aria-current="page">collection</li>
+  </ol>
+</nav>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="contact us.html">contact us</a></li>
+    <li class="breadcrumb-item"><a href="collection.html">collection</a></li>
+    <li class="breadcrumb-item active" aria-current="page">about us</li>
+  </ol>
+</nav>
+
+<!--2nd-->
+
+<nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Home</li>
+    <li class="breadcrumb-item"><a href="collection.html">Collection</a></li>
+    <li class="breadcrumb-item"><a href="about us.html">About Us</a></li>
+    <li class="breadcrumb-item"><a href="contact us.html">Contact Us</a></li>
+  </ol>
+</nav>
+</div>
+
+
+<h5>Button Tags</h5>
+
+<div class="container">
+<a class="btn btn-primary" href="#" role="button">Link</a>
+<button class="btn btn-primary" type="submit">Button</button>
+<input class="btn btn-primary" type="button" value="Input">
+<input class="btn btn-primary" type="submit" value="Submit">
+<input class="btn btn-primary" type="reset" value="Reset">
+
+<h5>Disabled Tags</h5>
+
+<a href="#" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Primary link</a>
+<a href="#" class="btn btn-secondary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Link</a>
+</div>
+
+<h5>Block Button</h5>
+
+<div class="d-grid gap-2">
+  <button class="btn btn-primary" type="button">Button</button>
+  <button class="btn btn-primary" type="button">Button</button>
+</div>
+
+<br>
+
+<div class="d-grid gap-2 col-6 mx-auto">
+  <button class="btn btn-primary" type="button">Button</button>
+  <button class="btn btn-primary" type="button">Button</button>
+</div>
+
+<h5>Nesting</h5>
+
+<div class="container">
+<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+  <button type="button" class="btn btn-primary">Cart</button>
+  <button type="button" class="btn btn-primary">Shop Now</button>
+
+  <div class="btn-group" role="group">
+    <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      Links
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <li><a class="dropdown-item" href="#">Facebook</a></li>
+      <li><a class="dropdown-item" href="#">Youtube</a></li>
+    </ul>
+  </div>
+</div>
+</div>
+
+<br> <br>
+
+<h5>Cards</h5>
+
+<div class="container">
+      <div class="card" style="width: 18rem;">
+        <img src="images/tshirt2.jpg" class="card-img-top" alt="t-shirt">
+          <div class="card-body">
+    <h2 class="card-title">Clothing</h2>
+    <p class="card-text">Exclusive T-Shirts. Get <strong>50% Off</strong> in this festive season </p>
+    <a href="collection.html" class="btn btn-primary">Visit our collection page</a>
+          </div>
+      </div>
+
+
+<br> <br>
+
+<div class="card" style="width: 18rem;">
+  <img src="images/tshirt3.jpg" class="card-img-top" alt="shirt">
+  <div class="card-body">
+    <p class="card-text">Exclusive T-Shirts. Get <strong>50% Off</strong> in this festive season</p>
+  </div>
+</div>
+
+<br> <br>
+
+<div class="card text-center">
+  <div class="card-header">
+    Featured
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Memories</h5>
+    <p class="card-text">You can recall your memories</p>
+    <a href="#" class="btn btn-primary">See memories here</a>
+  </div>
+  <div class="card-footer text-muted">
+    2 years ago
+  </div>
+</div>
+
+<br><br>
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">T-Shirt</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Collections</h6>
+    <p class="card-text">Get <strong>50% Off</strong> in this festive season</p>
+    <a href="about us.html" class="card-link">About Us</a>
+    <a href="contact us.html" class="card-link">Contact Us</a>
+  </div>
+</div>
+
+</div>
+
+<br><br>
+<div class="container">
+<div class="card mb-3">
+  <img src="images/tshirt1.jpg" class="card-img-top" alt="shirt">
+  <div class="card-body">
+    <h5 class="card-title">Shirts</h5>
+    <p class="card-text">This is our shirts collection. You can enjoy our <strong>50% Off</strong> offer in this festive season.</p>
+    <p class="card-text"><small class="text-muted">Last updated 9 mins ago</small></p>
+  </div>
+</div>
+</div>
+
+
+<h5>Collapse</h5>
+
+<div class="container">
+<p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Button with data-bs-target
+  </button>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Ullam magni, nihil, doloremque eligendi dolore praesentium.
+  </div>
+</div>
+</div>
+
+
+<h5>Collapse(Multiple Targets)</h5>
+
+<div class="container">
+<p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+</p>
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, illo. Veritatis temporibus quod natus cum ipsa aliquam fugit, maiores enim deleniti perferendis quis omnis nemo, soluta. Voluptas natus reprehenderit provident porro saepe labore expedita repudiandae quis distinctio eos veniam quaerat, quae tenetur suscipit nostrum autem exercitationem quibusdam ratione. Illum, voluptatem?
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam unde ipsum, animi! Fugit recusandae assumenda sapiente! Consectetur dolore est cumque labore numquam quod hic maxime, eius, nobis ex obcaecati, magnam reiciendis neque commodi provident facilis. Necessitatibus fugiat, quasi rem, commodi quaerat laboriosam veritatis mollitia ipsam eius illum molestiae sunt magnam labore qui est distinctio sed eaque autem et, dolor iusto.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<h5>Dropdown</h5>
+
+<div class="container">
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+    Menu
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="contact us.html">Contact</a></li>
+    <li><a class="dropdown-item" href="about us.html">About us</a></li>
+  </ul>
+</div>
+</div>
+
+<h5>List-Group</h5>
+
+<div class="container">
+<div class="list-group">
+  <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+    Shirts Collection
+  </button>
+  <button type="button" class="list-group-item list-group-item-action">Casual Shirt</button>
+  <button type="button" class="list-group-item list-group-item-action">T-Shirt</button>
+  <button type="button" class="list-group-item list-group-item-action">Polo T-Shirt</button>
+  <button type="button" class="list-group-item list-group-item-action" disabled>Sleeveless Shirt</button>
+</div>
+</div>
+
+<h5>Modal</h5>
+
+<!-- Button trigger modal -->
+<div class="container">
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Submit the form
+</button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Fill the form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        You should fill up the form first!!!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h5>Navs and Tabs (Javascript Behavior)</h5>
+
+<div class="container">
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Settings</a>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, rerum numquam ducimus vel aperiam eaque repellat. Doloremque repellat dolore enim iure ullam, pariatur ex! Odio facere asperiores suscipit minima quos voluptates dicta vel commodi sed veritatis cumque sint, fuga, cum possimus dignissimos ab deserunt natus maxime ipsam ut voluptatibus quae tenetur officia neque reiciendis. Ad, placeat animi. Pariatur neque inventore porro, ipsa accusantium, vel ab quis exercitationem quisquam maiores magni.</div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam dignissimos accusamus nesciunt consectetur similique, veniam eum vel distinctio voluptate, tempore recusandae, esse voluptatibus, pariatur dolorem molestias ab numquam doloribus beatae quae cumque sint tempora facilis?</div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quod tenetur alias nesciunt quis unde veniam necessitatibus ipsam voluptatibus numquam excepturi delectus iusto, quae sint iste, dignissimos! Quia architecto impedit officiis ex omnis voluptate sunt pariatur tempore, saepe quasi odio deleniti perferendis minima fuga voluptates.</div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nam praesentium, asperiores nisi, ratione cumque. Cillum ad ut irure tempor velit nostrud occaecat ullamco aliqua anim Lorem sint. Veniam sint duis incididunt do esse magna mollit excepteur laborum qui. Id id reprehenderit sit est eu aliqua occaecat quis et velit excepteur laborum mollit dolore eiusmod. Ipsum dolor in occaecat commodo et voluptate minim reprehenderit mollit pariatur.</div>
+</div>
+
+</div>
+
+
+<br> <br>
+
+<h5>Vertical Pills</h5>
+
+<div class="container">
+<div class="d-flex align-items-start">
+  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <a class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+    <a class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+    <a class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+    <a class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+  </div>
+  <div class="tab-content" id="v-pills-tabContent">
+    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, nulla odio nihil voluptatibus et culpa. Cum, corrupti quae odio dolorum natus. Perspiciatis, assumenda numquam commodi.</div>
+    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Lorem ipsum dolor sit amet consectetur. Cillum ad ut irure tempor velit nostrud occaecat ullamco aliqua anim Lorem sint. Veniam sint duis incididunt do esse magna mollit excepteur laborum qui. Id id reprehenderit sit est eu aliqua occaecat quis et velit excepteur laborum mollit dolore eiusmod. Ipsum dolor in occaecat commodo et voluptate minim reprehenderit mollit pariatur. Deserunt non laborum enim et cillum eu deserunt excepteur ea incididunt minim occaecat.</div>
+    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cillum ad ut irure tempor velit nostrud occaecat ullamco aliqua anim Lorem sint. Veniam sint duis incididunt do esse magna mollit excepteur laborum qui. Id id reprehenderit sit est eu aliqua occaecat quis et velit excepteur laborum mollit dolore eiusmod.</div>
+    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nam praesentium, asperiores nisi, ratione cumque. Cillum ad ut irure tempor velit nostrud occaecat ullamco aliqua anim Lorem sint. Veniam sint duis incididunt do esse magna mollit excepteur laborum qui. Id id reprehenderit sit est eu aliqua occaecat quis et velit excepteur laborum mollit dolore eiusmod. Ipsum dolor in occaecat commodo et voluptate minim reprehenderit mollit pariatur. 
+  </div>
+</div>
+</div>
+<br> <br>
+
+<h5>Spinners</h5>
+
+<div class="container">
+<div class="d-flex justify-content-center">
+  <div class="spinner-border" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+</div>
+
+<div class="d-flex align-items-center">
+  <strong>Loading...</strong>
+  <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
+</div>
+
+<button class="btn btn-primary" type="button" disabled>
+  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+  <span class="visually-hidden">Loading...</span>
+</button>
+<button class="btn btn-primary" type="button" disabled>
+  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+  Loading...
+</button>
+
+<br><br>
+
+<h5>Popover</h5>
+
+<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip">
+Tooltip on right
+</button>
+
+<button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Message" data-bs-content="Shop now online. Visit our website">Here is message for you
+</button>
+
+</div>
+
+<br><br>
+
+<h5>Carousel</h5>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+    <!-- -->
+<div id="carex" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- indicators -->
+   <ol class="carousel-indicators">
+    <li data-bs-target="#carex" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carex" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carex" data-bs-slide-to="2"></li><li data-bs-target="#carex" data-bs-slide-to="3"></li>
+  </ol>
+
+  <!-- inner -->
+  <div class="carousel-inner">
+    <div class="carousel-item active"data-bs-interval="3000">
+      <img src="images/tshirt1.jpg" class="d-block w-100" alt="shirt">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="5000">
+      <img src="images/tshirt2.jpg" class="d-block w-100" alt="shirt">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="images/tshirt3.jpg" class="d-block w-100" alt="shirt">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="5000">
+      <img src="images/tshirt4.jpg" class="d-block w-100" alt="shirt">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Fourth slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- control -->
+  <a class="carousel-control-prev" href="#carex" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carex" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+
+</div>
+
+      <!-- -->
+    </div>
+  </div>
+</div>
+
+<h5>Pagination</h5>
+
+<nav aria-label="...">
+  <ul class="pagination">
+    <li class="page-item disabled">
+      <span class="page-link">Previous</span>
+    </li>
+    <li class="page-item"><a class="page-link" href="collection.html">1</a></li>
+    <li class="page-item active" aria-current="page">
+      <span class="page-link">2</span>
+    </li>
+    <li class="page-item"><a class="page-link" href="contact us.html">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="about us.html">Next</a>
+    </li>
+  </ul>
+</nav>
+
+<h5>Progress</h5>
+
+<div class="progress">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+</div>
+
+<br>
+
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+
+<h5>Close Button</h5>
+
+<button type="button" class="btn-close" aria-label="Close"></button>
+
+<button type="button" class="btn-close" disabled aria-label="Close"></button>
+
+
+<!--JS links-->
+
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+  </body>
+</html>
